@@ -6,7 +6,7 @@ const ExerciseSchema = new Schema({
         type: String,
         required: true
     },
-    muscle_group: [MusclegroupSchema]
+    muscle_group: MusclegroupSchema
 });
 
 module.exports = ExerciseSchema;
